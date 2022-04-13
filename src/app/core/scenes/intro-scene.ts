@@ -12,6 +12,8 @@ export class IntroScene extends Phaser.Scene {
         this.player = new Player(job, 1000);
     }
 
+    // Test comment
+
     create() {
         let titleText = "Adulting Sim!"
         let introText = `You just started your first job as a ${this.player.job.title} at ${this.player.job.company} making $${this.player.job.monthlySalary} a month.\n\n` + 
