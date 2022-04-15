@@ -17,7 +17,7 @@ export class IntroScene extends Phaser.Scene {
     create() {
         let titleText = "Adulting Sim!"
         let introText = `You just started your first job as a ${this.player.job.title} at ${this.player.job.company} making $${this.player.job.monthlySalary} a month.\n\n` + 
-        `You have $${this.player.cash} to your name.\n\n` +
+        `You currently have $${this.player.cash} to your name.\n\n` +
         `You have moved out of your parent's house and into your first apartment.\n\n` +
         `Rent is due on the 1st.\n\n`+
         `It's up to YOU now to decide how to manage your money. Do you think you have what it takes to survive as an adult?\n\n` +

@@ -54,6 +54,7 @@ export class Board extends Phaser.GameObjects.Grid {
 
     updateDateDisplay() {
         this.dateDisplay.text = "Current Date: " + this.currentDate.toLocaleDateString("en-US");
+        
     }
 
     plotHeader() {
